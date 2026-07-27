@@ -45,7 +45,8 @@ Restart ComfyUI, then hard-reload the page (Ctrl+Shift+R) -- the frontend caches
 4. After a **page reload** the folder has to be picked again (one click; the dialog reopens at the last used directory).
 
 Ignore this warning:
-<img src="examples/warning.png" alt="Annoying warning window" width="800">
+<img src="examples/warning.png" alt="Annoying warning window" width="458">
+
 Your files won't be uploaded anywhere, this is a default browser confirmation for the folder select dialog.
 
 ## Parameters

@@ -2,7 +2,7 @@
 [project]
 name = "comfyui-local-folder-image"
 description = "ComfyUI node that lets the user pick a folder on their own machine and, on every workflow run, uploads exactly one file from it to the server."
-version = "0.1.0"
+version = "0.1.1"
 license = { text = "MIT" }
 dependencies  = [
 ]
