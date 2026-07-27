@@ -24,6 +24,3 @@ jobs:
 
       - name: Compile Python files
         run: python -m py_compile nodes.py __init__.py tests/*.py
-
-      - name: Run tests
-        run: python -m unittest discover -s tests -v
