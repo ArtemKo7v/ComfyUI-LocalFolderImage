@@ -1,0 +1,15 @@
+# pyproject.toml
+[project]
+name = "comfyui-local-folder-image"
+description = "ComfyUI node that lets the user pick a folder on their own machine and, on every workflow run, uploads exactly one file from it to the server."
+version = "0.1.0"
+license = { text = "MIT" }
+dependencies  = [
+]
+
+[project.urls]
+Repository = "https://github.com/ArtemKo7v/ComfyUI-LocalFolderImage"
+
+[tool.comfy]
+PublisherId = "artemko7v"
+DisplayName = "ComfyUI Local Folder Image"
