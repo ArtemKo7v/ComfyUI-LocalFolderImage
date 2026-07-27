@@ -3,6 +3,7 @@
 A ComfyUI custom node that lets the user pick a folder on **their own** machine and, on every workflow run, uploads exactly **one** file from it to the server.
 
 Basic workflow:
+
 <img src="examples/basic.png" alt="Basic Local Folder Image workflow" width="800">
 
 ## Background
@@ -20,6 +21,7 @@ At first, I was not sure whether this was even possible. However, with the help 
 It is not perfect, but it handled my task very well.
 
 The workflow I used to upscale the images with Krea 2:
+
 <img src="examples/krea2_upscale.png" alt="Krea2 upscaler workflow" width="800">
 
 I know that using the QwenImageEdit text encoder with Krea 2 is not completely correct, but it still works.
@@ -45,6 +47,7 @@ Restart ComfyUI, then hard-reload the page (Ctrl+Shift+R) -- the frontend caches
 4. After a **page reload** the folder has to be picked again (one click; the dialog reopens at the last used directory).
 
 Ignore this warning:
+
 <img src="examples/warning.png" alt="Annoying warning window" width="458">
 
 Your files won't be uploaded anywhere, this is a default browser confirmation for the folder select dialog.
